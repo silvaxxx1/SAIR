@@ -12,6 +12,7 @@ dependencies = [
     "nbconvert>=7.16.6",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
+    "plotly>=6.3.1",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
     "streamlit>=1.50.0",
