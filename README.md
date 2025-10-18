@@ -62,17 +62,34 @@ graph TD
 ---
 
 
----
+## **📈 Tech Stack & Community Status**
 
-## **📈 Badges & Status**
-
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.27-orange)
-![ML/DL](https://img.shields.io/badge/ML/DL-Practical-green)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.14-orange?logo=tensorflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-purple?logo=huggingface&logoColor=white)
+![JAX](https://img.shields.io/badge/JAX-0.4.15-lightblue?logo=google&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.109-lightblue?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.27-orange?logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-24.0-blue?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28-blue?logo=kubernetes&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-12.2-red?logo=nvidia&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange?logo=linux&logoColor=white)
+![Weights&Biases](https://img.shields.io/badge/WandB-0.16.0-pink?logo=wandb&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-2.9-lightgrey?logo=mlflow&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue?logo=postgresql&logoColor=white)
+![NoSQL](https://img.shields.io/badge/NoSQL-MongoDB-green?logo=mongodb&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-FoundationModels-purple)
+![RL/AI](https://img.shields.io/badge/RL%2FAI-Advanced-teal)
+![Computer Vision](https://img.shields.io/badge/ComputerVision-OpenCV-blue?logo=opencv&logoColor=white)
+![Robotics](https://img.shields.io/badge/Robotics-ROS2-orange?logo=robotics&logoColor=white)
+![Embedded Systems](https://img.shields.io/badge/EmbeddedSystems-RaspberryPi-red?logo=raspberrypi&logoColor=white)
+![SOTA Research](https://img.shields.io/badge/Research-SOTA-violet)
 ![Community](https://img.shields.io/badge/Community-Sudan-ff69b4)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ---
+
 
 ## **🎓 How to Participate**
 
