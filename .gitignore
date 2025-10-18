@@ -1,0 +1,47 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.swp
+*.swo
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Data files (large or sensitive)
+# ==============================
+*.csv
+*.h5
+*.npz
+*.json   # optional, if contains sensitive metadata
+
+# ==============================
+# Models / ML Artifacts
+# ==============================
+models/
+*_model.pkl
+*_model.joblib
+*_metadata.json
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+*.log
+*.tmp
+*.DS_Store
+
+# ==============================
+# Streamlit / App assets
+# ==============================
+# Only include if you want to ignore temporary files
+*.db
