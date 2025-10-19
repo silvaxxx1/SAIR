@@ -186,7 +186,7 @@ We use `uv` for fast, reliable Python dependency management. If you don't have i
 
 **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/SAIR.git
+git clone https://github.com/silvaxxx1/SAIR.git
 cd SAIR
 ```
 
