@@ -1,6 +1,3 @@
-Perfect! Here’s the **final copy-paste-ready Regression Module README** with **all relevant badges, links, formatting, and minor improvements**:
-
----
 
 # 📈 Regression Module – SAIR ML/DL Course
 
