@@ -1,13 +1,10 @@
-# **1️⃣ Main Repository README – SAIR**
-
-```markdown
 # 🇸🇩 SAIR – Sudanese Artificial Intelligence Research
 
 ![SAIR Banner](SAIR.jpg)
 
-**Founder & Maintainer:** Mohammed Awad Ahmed (Silva)  
-**Course:** Practical Introduction to ML/DL Systems  
-**Status:** 🚀 Active Courses & Community  
+**Founder & Maintainer:** Mohammed Awad Ahmed (Silva)
+**Course:** Practical Introduction to ML/DL Systems
+**Status:** 🚀 Active Courses & Community
 **License:** MIT | **Community:** [![Telegram](https://img.shields.io/badge/Telegram-Join_Community-blue?logo=telegram)](https://t.me/+jPPlO6ZFDbtlYzU0)
 
 ---
@@ -19,10 +16,11 @@
 This repository is the **central hub** for courses, hands-on projects, and collaborative research. Learners are guided from **foundational ML/DL concepts** to **state-of-the-art AI systems**, building a vibrant AI community in Sudan.
 
 ### **Who is this for?**
-* 🎓 Students learning AI from scratch  
-* 💼 Professionals seeking career transitions  
-* 🧠 Researchers exploring advanced topics  
-* 🌍 Enthusiasts passionate about AI innovation  
+
+* 🎓 Students learning AI from scratch
+* 💼 Professionals seeking career transitions
+* 🧠 Researchers exploring advanced topics
+* 🌍 Enthusiasts passionate about AI innovation
 
 **Why SAIR matters:** Sudanese talent deserves access to **free, high-quality AI education, mentorship, and opportunities**.
 
@@ -31,14 +29,17 @@ This repository is the **central hub** for courses, hands-on projects, and colla
 ## 🌟 Vision & Mission
 
 ### **Vision**
+
 *"AI is the new electricity — let's make Sudan a leader in it."*
 
 ### **Mission**
+
 SAIR exists to:
-- ✅ **Educate** – Foundational & advanced AI/ML/DL courses  
-- ✅ **Empower** – Mentorship, community, and career guidance  
-- ✅ **Innovate** – Local research and real-world AI applications  
-- ✅ **Collaborate** – Connect learners, researchers, and professionals  
+
+* ✅ **Educate** – Foundational & advanced AI/ML/DL courses
+* ✅ **Empower** – Mentorship, community, and career guidance
+* ✅ **Innovate** – Local research and real-world AI applications
+* ✅ **Collaborate** – Connect learners, researchers, and professionals
 
 ---
 
@@ -46,11 +47,7 @@ SAIR exists to:
 
 SAIR’s journey is structured in **three pillars**:
 
-```
-
-Foundations → Application → Research
-
-````
+**Foundations → Application → Research**
 
 | Phase          | Focus & Skills                       |
 | -------------- | ------------------------------------ |
@@ -65,36 +62,31 @@ Foundations → Application → Research
 ## 💻 Tech Stack & Tools
 
 **Core Technologies:**
-
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)  
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red?logo=pytorch&logoColor=white)](https://pytorch.org/)  
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.14-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)  
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-purple?logo=huggingface&logoColor=white)](https://huggingface.co/)  
-[![JAX](https://img.shields.io/badge/JAX-0.4.14-lightblue?logo=google&logoColor=white)](https://github.com/google/jax)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python\&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red?logo=pytorch\&logoColor=white)](https://pytorch.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.14-orange?logo=tensorflow\&logoColor=white)](https://www.tensorflow.org/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-purple?logo=huggingface\&logoColor=white)](https://huggingface.co/)
+[![JAX](https://img.shields.io/badge/JAX-0.4.14-lightblue?logo=google\&logoColor=white)](https://github.com/google/jax)
 
 **Deployment & Production:**
-
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.27-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)  
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.99-green?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)  
-[![Docker](https://img.shields.io/badge/Docker-24.0-blue?logo=docker&logoColor=white)](https://www.docker.com/)  
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-1.29-blue?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.27-orange?logo=streamlit\&logoColor=white)](https://streamlit.io/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.99-green?logo=fastapi\&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-24.0-blue?logo=docker\&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-1.29-blue?logo=kubernetes\&logoColor=white)](https://kubernetes.io/)
 
 **Experiment Tracking & Management:**
-
-[![MLflow](https://img.shields.io/badge/MLflow-2.9-lightgrey?logo=mlflow&logoColor=white)](https://mlflow.org/)  
-[![Weights & Biases](https://img.shields.io/badge/Weights_%26_Biases-0.16-lightblue?logo=wandb&logoColor=white)](https://wandb.ai/)
+[![MLflow](https://img.shields.io/badge/MLflow-2.9-lightgrey?logo=mlflow\&logoColor=white)](https://mlflow.org/)
+[![Weights & Biases](https://img.shields.io/badge/Weights_%26_Biases-0.16-lightblue?logo=wandb\&logoColor=white)](https://wandb.ai/)
 
 **Infrastructure & Data:**
-
-[![CUDA](https://img.shields.io/badge/CUDA-12.3-orange?logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)  
-[![Linux](https://img.shields.io/badge/Linux-Ubuntu-blue?logo=linux&logoColor=white)](https://www.linux.org/)  
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)  
-[![MongoDB](https://img.shields.io/badge/MongoDB-7.3-green?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![CUDA](https://img.shields.io/badge/CUDA-12.3-orange?logo=nvidia\&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![Linux](https://img.shields.io/badge/Linux-Ubuntu-blue?logo=linux\&logoColor=white)](https://www.linux.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-7.3-green?logo=mongodb\&logoColor=white)](https://www.mongodb.com/)
 
 **Specialized Domains:**
-
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.8-blue?logo=opencv&logoColor=white)](https://opencv.org/)  
-[![ROS2](https://img.shields.io/badge/ROS2-Foxy-blue?logo=robotics&logoColor=white)](https://docs.ros.org/en/foxy/)  
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.8-blue?logo=opencv\&logoColor=white)](https://opencv.org/)
+[![ROS2](https://img.shields.io/badge/ROS2-Foxy-blue?logo=robotics\&logoColor=white)](https://docs.ros.org/en/foxy/)
 [![Embedded](https://img.shields.io/badge/Embedded-Systems-lightgrey)](#)
 
 ---
@@ -102,23 +94,18 @@ Foundations → Application → Research
 ## ⚡ Quick Start
 
 ### **Prerequisites**
-* Python ≥ 3.11  
-* Git  
-* Terminal / CLI  
-* Code editor (VS Code, PyCharm, etc.)  
+
+* Python ≥ 3.11
+* Git
+* Terminal / CLI
+* Code editor (VS Code, PyCharm, etc.)
 
 ### **Installation**
-Clone the repo and install dependencies with `uv`:
 
 ```bash
 git clone https://github.com/silvaxxx1/SAIR.git
 cd SAIR
 uv sync
-````
-
-Activate the environment:
-
-```bash
 uv venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 ```
@@ -142,8 +129,6 @@ Build your first end-to-end ML project with:
 
 ## 📝 Contributing
 
-We welcome contributions!
-
 **Ways to Help:**
 
 * 🐛 Report bugs or issues
@@ -163,10 +148,7 @@ We welcome contributions!
 
 ## 🤝 Community & Telegram
 
-Join our **active AI community**:
 [![Telegram](https://img.shields.io/badge/Telegram-Join_Community-blue?logo=telegram)](https://t.me/+jPPlO6ZFDbtlYzU0)
-
-Engage with learners, mentors, and researchers. Ask questions, share projects, and grow together.
 
 ---
 
@@ -179,8 +161,6 @@ Engage with learners, mentors, and researchers. Ask questions, share projects, a
 
 > *“The best way to learn AI is to build with it.”* — SAIR Community
 
----
-
 **Made with ❤️ by the SAIR Community**
 *Empowering Sudan. Advancing AI. Changing the Future.*
-
+------------------------------------------------------
