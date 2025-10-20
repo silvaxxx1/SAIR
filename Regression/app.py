@@ -3,14 +3,29 @@ import streamlit as st
 import joblib
 import pandas as pd
 import os
+import glob
 from utils import AdvancedFeatureEngineer, OutlierHandler
 
 # ===========================
-# 1️⃣ Load model and preprocessor
+# 1️⃣ Auto-detect latest model version
 # ===========================
-MODEL_DIR = os.path.join("models", "v1_20251018_042353")
+model_folders = glob.glob("models/v1_*")
+if not model_folders:
+    st.error("❌ No model folders found in 'models/'. Please train and save a model first.")
+    st.stop()
+
+# Get the latest folder by modification time
+MODEL_DIR = max(model_folders, key=os.path.getmtime)
 model_path = os.path.join(MODEL_DIR, "best_model.pkl")
 preprocessor_path = os.path.join(MODEL_DIR, "preprocessor.pkl")
+
+# Safety check
+if not os.path.exists(model_path):
+    st.error(f"❌ Model file not found at {model_path}")
+    st.stop()
+if not os.path.exists(preprocessor_path):
+    st.error(f"❌ Preprocessor file not found at {preprocessor_path}")
+    st.stop()
 
 # ✅ Make sure utils.py is imported before unpickling
 @st.cache_resource
@@ -51,8 +66,10 @@ with col2:
 # ===========================
 # 3️⃣ Prepare input DataFrame
 # ===========================
-feature_names = ["MedInc","HouseAge","AveRooms","AveBedrms",
-                 "Population","AveOccup","Latitude","Longitude"]
+feature_names = [
+    "MedInc", "HouseAge", "AveRooms", "AveBedrms",
+    "Population", "AveOccup", "Latitude", "Longitude"
+]
 
 input_df = pd.DataFrame([[
     med_inc, house_age, avg_rooms, avg_bedrooms,
@@ -66,21 +83,20 @@ if st.button("🚀 Predict House Price"):
     try:
         X_input = preprocessor.transform(input_df)
         prediction = model.predict(X_input)[0]
-
-        # ✅ Convert from dataset units ($100k) to actual dollars
-        predicted_price = prediction * 100_000
+        predicted_price = prediction * 100_000  # Convert from 100k units
 
         st.success(f"### Predicted House Price: ${predicted_price:,.0f}")
         st.write("#### Input Features") 
         st.write(input_df)
     except Exception as e:
-        st.error(f"Error making prediction: {str(e)}")
+        st.error(f"❌ Error making prediction: {str(e)}")
 
 # ===========================
 # 5️⃣ Sidebar Info
 # ===========================
 st.sidebar.markdown("---")
 st.sidebar.subheader("ℹ️ Model Information")
+st.sidebar.write(f"**Loaded from:** `{MODEL_DIR}`")
 st.sidebar.write("**Model:** Gradient Boosting Regressor")
 st.sidebar.write("**Dataset:** California Housing")
 st.sidebar.write("**Validation R²:** 0.8298")
