@@ -1,4 +1,4 @@
-CLEA# 🇸🇩 SAIR – Sudanese Artificial Intelligence Research
+🇸🇩 SAIR – Sudanese Artificial Intelligence Research
 
 ![SAIR Banner](SAIR.jpg)
 
