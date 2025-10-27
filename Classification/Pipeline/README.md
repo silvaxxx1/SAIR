@@ -140,7 +140,7 @@ python run_pipeline.py --mode training
 # Model evaluation
 python run_pipeline.py --mode evaluation
 
-# Generate submission
+# Generate submission (optional)
 python run_pipeline.py --mode submission
 ```
 
