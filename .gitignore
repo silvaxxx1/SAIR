@@ -1,17 +1,95 @@
-<<<<<<< HEAD
+# ==============================
+# Python
+# ==============================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 *.pyo
 *.pyd
+*.so
 *.pkl
 *.joblib
-*.swp
-*.swo
+
+# Package and distribution
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment and virtual environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pdm-python
+.pdm-build/
+.pixi
+__pypackages__/
+
+# Package manager locks (commented - choose based on your package manager)
+# Pipfile.lock
+# uv.lock
+# poetry.lock
+# poetry.toml
+# pdm.lock
+# pdm.toml
+# pixi.lock
 
 # ==============================
-# Jupyter Notebook
+# Testing and Coverage
 # ==============================
-.ipynb_checkpoints/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ==============================
+# Documentation
+# ==============================
+docs/_build/
+/site
+
+# ==============================
+# Jupyter Notebook & IPython
+# ==============================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
 
 # ==============================
 # Data files (large or sensitive)
@@ -36,8 +114,85 @@ models/
 .idea/
 *.log
 *.tmp
+*.swp
+*.swo
 *.DS_Store
 
+# PyCharm
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
 # ==============================
-# Streamlit / App assets
+# Type checkers and linters
 # ==============================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ==============================
+# Other frameworks and tools
+# ==============================
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# SageMath
+*.sage.py
+
+# Translations
+*.mo
+*.pot
+
+# Cython debug symbols
+cython_debug/
+
+# Abstra
+.abstra/
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# PyPI configuration
+.pypirc
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
